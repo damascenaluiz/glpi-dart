@@ -1,0 +1,18 @@
+name: glpi
+description: A GLPI API Client written in Dart to interact with GLPI Server using the API endpoints provided.
+version: 0.0.1
+homepage: https://www.example.com
+author: Luiz Damascena <lhfdamascena@gmail.com>
+
+environment:
+  sdk: '>=2.6.0 <3.0.0'
+
+dependencies:
+  http: ^0.12.0+4
+  mime: ^0.9.6+3
+  path: ^1.6.4
+
+dev_dependencies:
+  pedantic: ^1.7.0
+  test: ^1.6.5
+  effective_dart: ^1.2.1
